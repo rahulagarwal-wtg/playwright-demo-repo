@@ -1,9 +1,6 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven3'   // configure Maven under Jenkins → Global Tool Config
-        jdk 'JDK17'      // configure JDK under Jenkins → Global Tool Config
-    }
+
     stages {
         stage('Checkout') {
             steps {
