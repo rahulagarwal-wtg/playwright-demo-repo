@@ -5,6 +5,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import io.cucumber.java.en.Then;
 
 public class LoginSteps {
     private Playwright playwright;
@@ -17,5 +18,15 @@ public class LoginSteps {
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
         page = browser.newPage();
         page.navigate("https://www.google.com");
+    }
+
+    @Then("I close the browser")
+    public void i_close_the_browser() {
+        if (browser != null) {
+            browser.close();
+        }
+        if (playwright != null) {
+            playwright.close();
+        }
     }
 }
