@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test -s /var/jenkins_home/.m2/personalsettings.xml -U'
+                sh 'mvn clean test -s /var/jenkins_home/.m2/personalsettings.xml -B'
             }
         }
         stage('Report') {

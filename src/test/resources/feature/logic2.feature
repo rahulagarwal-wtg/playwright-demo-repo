@@ -1,5 +1,5 @@
-@regression @gtee
-Feature: Google Search
+@regression @lc
+Feature: Google Search 2
 
   Scenario: Navigate to Google
     Given I am on the Google search page

@@ -1,11 +1,11 @@
-@regression @gtee
-Feature: Google Search
+@regression @epres
+Feature: Google Search 3
 
-  Scenario: Navigate to Google
+  Scenario: Navigate to Google 2
     Given I am on the Google search page
     Then I close the browser
 
-  Scenario: Navigate to Google
+  Scenario: Navigate to Google 2
     Given I am on the Google search page
     Then I close the browser
 
