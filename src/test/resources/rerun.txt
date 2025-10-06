@@ -2160,6 +2160,3 @@
 /Development/demo_projects/playwright-demo-repo/src/test/resources/feature/logic20.feature:100
 /Development/demo_projects/playwright-demo-repo/src/test/resources/feature/logic20.feature:104
 /Development/demo_projects/playwright-demo-repo/src/test/resources/feature/logic20.feature:108
-
-
-
