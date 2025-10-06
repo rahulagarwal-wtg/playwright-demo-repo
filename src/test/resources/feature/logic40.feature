@@ -1,4 +1,4 @@
-@regression @lc
+@regression @admin
 Feature: Google Search 40
 
   Scenario: Navigate to Google
