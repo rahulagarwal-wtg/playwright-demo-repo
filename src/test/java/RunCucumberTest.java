@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         tags = "@regression",
-        glue = "steps"// Keep this empty to look in the default package
+        glue = "net.automation.steps"
 )
 public class RunCucumberTest {
 }

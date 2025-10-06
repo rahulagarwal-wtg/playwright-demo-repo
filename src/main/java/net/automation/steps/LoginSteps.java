@@ -1,4 +1,4 @@
-package steps;
+package net.automation.steps;
 
 import io.cucumber.java.en.Given;
 import com.microsoft.playwright.Browser;
